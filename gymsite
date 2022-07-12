@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S K GYM</title>
+    <link rel="stylesheet" href="css.html">
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            background-image:url("WhatsApp Image 2022-07-10 at 8.21.43 PM.jpeg");
+            background-size:1800px;
+            }
+            .left{
+                position:absolute;
+                left:45px;
+                top:22px;
+                display:inline-block;
+                border: 2px solid black;
+               
+            }
+            .left img{
+                width:120px;
+                height:80px;
+                
+            }
+            .left div{
+                text-align:center;
+                font-size:20px;
+            }
+            
+            .mid{
+                display:block;
+                width:33%;
+                margin:12px auto;
+                border: 2px solid red;
+
+            }
+            .right{
+                position:absolute;
+                right:32px;
+                top:22px;
+                display:inline-block;
+                border: 2px solid blue;
+            }
+            .navbar{
+                display:inline-block;
+            }
+            .navbar li{
+                display:inline-block;
+            }
+            .navbar li a{
+                color:white;
+                text-decoration:none;
+                padding:32px 23px;
+            }
+            .navbar li a:hover{
+                color:blue;
+                text-decoration:underline;
+                padding:32px 23px;
+            }
+            .btn{
+                margin:0px 9px;
+                background-color: rgba(128, 128, 128, 0.425);
+                color:white;
+                padding:4px 14px;
+                border:2px solid black;
+                border-radius:12px;
+                cursor: pointer;
+
+            }
+            .btn:hover{
+                margin:0px 9px;
+                background-color: black;
+                color:white;
+                padding:4px 14px;
+                border:2px solid black;
+                border-radius:12px;
+                cursor: pointer;
+
+            }
+            .container{
+                border: 2px solid #e8ede8;
+                margin: 55px 90px;
+                padding: 2px;
+                width: 40%;
+                border-radius: 20px;
+                display: inline-block;
+
+            }
+          .form input{
+            text-align:center;
+            display:block;
+            width:35%;
+            border:2px solid black;
+            padding:1px;
+            margin:1px auto;
+            border-radius:20px;
+            font-size:15px bold;
+          }
+          .container h1{
+            text-align:center;
+          }
+          .conatiner button{
+            text-align:center;
+            padding:50px;
+            margin:auto;
+
+          }
+          footer h3{
+            border:2px solid black;
+            
+            border-radius: 20px;
+            margin:80px 1100px;
+            padding:20px ;
+            text-align:center;
+            width:23%;
+            font-size:150%;
+            color:white;
+            background-color:black;
+          }
+          
+          
+           
+    </style>
+</head>
+<body>
+<header class="header">
+    <!--logo-->
+    <div class="left">
+<img src="WhatsApp Image 2022-07-10 at 8.21.43 PM (1).jpeg"alt="">
+<div></div>
+
+    </div>
+    <!--navigation bar-->
+    <div class="mid">
+         <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">contact us</a></li>
+            
+         </ul>
+        
+    </div>
+    <!--buttons-->
+    <div class="right">
+   <button class="btn">Call us now</button>
+   <button class="btn">Email us</button>
+    </div>
+</header>
+<div class="container">
+
+    
+    <h1>Join the best gym of MNIT Jaipur now</h1>
+    <form action="noaction.php"></form>
+    <div class="form">
+    <input type="" class="text"placeholder="Enter your name"><br>
+    <input type="" class="text"placeholder="Enter your age"><br>
+    <input type="" class="text"placeholder="Enter your gender"><br>
+    <input type="" class="text"placeholder="Enter your mobile no."><br>
+    <input type="" class="text"placeholder="Enter your locality">
+    
+    </div>
+    <button class="btn">submit</button>
+    
+</div>
+<hr>
+<footer><h3>Thanks For Visting Our Website!!</h3></footer>
+
+    </body>
+    </html>
